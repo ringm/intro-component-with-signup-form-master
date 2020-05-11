@@ -1,0 +1,43 @@
+.landing {
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  @include mq {
+    min-height: 100vh;
+  }
+}
+
+.container {
+  width: min(90%, 1440px);
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  @include mq {
+    text-align: left;
+  }
+}
+
+.row {
+  @include mq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.col {
+  width: min(100%, 600px);
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq {
+    & + & {
+      margin-left: 8em;
+    }
+  }
+}

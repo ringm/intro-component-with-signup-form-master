@@ -1,0 +1,41 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   background-color: $red;
+   background-image: url('../images/bg-intro-mobile.png');
+   background-repeat: repeat;
+   background-position: -50%;
+
+   @include mq {
+      background-image: url('../images/bg-intro-desktop.png');
+   }
+}
+
+ul {
+   padding-left: 0;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1,
+h2 {
+   margin-top: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+button {
+   border: none;
+}
+
+fieldset {
+   border: none;
+}

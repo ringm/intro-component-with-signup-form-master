@@ -1,0 +1,53 @@
+body {
+   font-family: $font-primary;
+}
+
+.header {
+
+   &__title,
+   &__paragraph {
+      color: $white;
+   }
+
+   &__title {
+      font-size: $font-l;
+   }
+
+   &__paragraph {
+      font-size: $font-m;
+      line-height: 1.75em;
+   }
+
+}
+
+.strong {
+   font-weight: 600;
+}
+
+.txt--upper {
+   text-transform: uppercase;
+}
+
+.legal {
+   font-size: $font-xs;
+   color: $grayish-blue;
+   line-height: 1.75em;
+   margin-top: 1.5em;
+
+   & a {
+      color: $red;
+      font-weight: $font-semi-bold;
+   }
+}
+
+.attribution {
+   margin-top: 2.5em;
+   line-height: 1.5;
+   color: $white;
+   font-size: $font-xs;
+
+   & a {
+      color: $white;
+      font-weight: $font-semi-bold;
+   }
+}

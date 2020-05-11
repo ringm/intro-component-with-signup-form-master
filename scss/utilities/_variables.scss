@@ -1,0 +1,39 @@
+/*COLORS
+------------------*/
+
+$red: hsl(0, 100%, 74%);
+$green: #37cc88;
+$green-hover: #77e2b4;
+$blue: hsl(248, 32%, 49%);
+$blue-hover: #7f73db;
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+$white: hsl(255, 100%, 100%);
+
+/*TYPOGRAPHY
+------------------*/
+
+/*family*/
+$font-primary: "Poppins", sans-serif;
+
+/*font size*/
+/*
+   function
+   font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+
+   example
+   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+*/
+
+$font-l: calc(28px + (38 - 20) * ((100vw - 300px) / (1440 - 300)));
+$font-m: calc(16px + (18 - 16) * ((100vw - 300px) / (1440 - 300)));
+$font-s: calc(14px + (16 - 14) * ((100vw - 300px) / (1440 - 300)));
+$font-xs: calc(12px + (14 - 12) * ((100vw - 300px) / (1440 - 300)));
+
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+$shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.15);
+$shadow-green: 0px 5px 0px 0px rgba(50, 185, 129, 1);
