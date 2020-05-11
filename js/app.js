@@ -6,9 +6,9 @@ submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
   for (let i = 0; i < fields.length; i++) {
-    let input = fields[i].children[0];
-    let alertIcon = fields[i].children[1];
-    let alertMsg = fields[i].children[2];
+    let input = fields[i].children[1];
+    let alertIcon = fields[i].children[2];
+    let alertMsg = fields[i].children[3];
 
     console.log(input.type);
 
